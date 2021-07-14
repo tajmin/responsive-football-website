@@ -129,6 +129,43 @@
 }
 
 
+
+/*---------------------------------
+         Subscription Section
+------------------------------------*/
+.subscription {
+    background-color: #2D25A0;
+    
+}
+
+.subcription-wrap h2 {
+    color: #FFFFFF;
+    padding: 20px 0;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.subscription-form {
+    margin-bottom: 25px;
+    text-align: center;
+}
+.subscription-form input {
+    padding: 12px 60px;
+    border: 2px solid #FFF;
+    margin-right: 6%;
+}
+
+.subscription-info {
+    width: 50%;
+}
+
+.subscription-image img {
+    width: 50%;
+}
+
+
+
 /*----------------------------------
          Footer  
 ------------------------------------*/
