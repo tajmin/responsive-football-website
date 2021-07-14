@@ -129,6 +129,11 @@
     flex-direction: column;
 }
 
+/* Footer Logo */
+.footer-content .logo img {
+    width: 485px;
+}
+
 /* Copyright Text */
 .copyright-text {
     text-align: center;
