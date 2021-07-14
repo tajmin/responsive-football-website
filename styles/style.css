@@ -1,0 +1,64 @@
+/* ------------------
+    Import Google Font 
+---------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/*-------------------
+    Base Styles 
+ ----------------------*/
+ body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: white;
+    font-size: 16px;
+ }
+
+ /* -----------------
+        Top Banner  
+---------------------*/
+.top-banner {
+    background: #2D25A0;
+    display: flex;
+}
+
+/* Top Section Info  */
+.section-info {
+    width: 40%;
+    padding-top: 220px;
+    padding-left: 200px;
+    padding-bottom: 240px;
+}
+
+.section-info h1 {
+    font-weight: 700px;
+    font-size: 64px;
+    line-height: 80px;
+    margin: 0; 
+    color: #FFFFFF;
+}
+/* Top Section Button  */
+
+.section-button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    margin-top: 27px;
+}
+
+.section-button span {
+    padding-left: 9px;
+}
+
+/* Top Section Image  */
+
+.section-image {
+    width: 60%;
+}
+
+/* Top Banner Image */
+.section-image img {
+    width: 570px;
+    padding: 135px 140px 80px 102px;
+}
