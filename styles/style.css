@@ -207,3 +207,34 @@
         margin-top: 50px;
     }
 }
+
+/* Tablet Devices - Width 689px to 992px */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container {
+        margin-top: 47px;
+    }
+    
+    .top-banner {
+        flex-direction: column;
+    }
+
+    .section-info {
+        width: 90%;
+        padding: 5%;
+    }
+
+    .section-image {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .section-image img {
+        width: 90%;
+        padding: 0;
+    }
+
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 15px;
+    }
+}
