@@ -124,3 +124,13 @@
 /*----------------------------------
          Footer  
 ------------------------------------*/
+.footer-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Copyright Text */
+.copyright-text {
+    text-align: center;
+    font-size: 18px;
+}
