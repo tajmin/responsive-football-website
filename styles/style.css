@@ -159,3 +159,51 @@
     font-size: 18px;
     margin-top: 20px;
 }
+
+/*--------------------------------------
+        Responsive @media Queries
+----------------------------------------*/
+
+/* Mobile Devices - Max Width 688px */
+
+@media only screen and (max-width:688px) {
+    .container {
+        margin-top: 47px;
+    }
+    
+    .top-banner {
+        flex-direction: column;
+    }
+
+    .section-info {
+        width: 100%;
+        padding: 112px 0 50px 16px;
+    }
+    
+    .section-info h1 {
+        font-size: 36px;
+    }
+
+    .section-image {
+        width: 100%;
+    }
+    
+    .section-image img {
+        width: 329px;
+        height: 260px;
+        padding: 0 16px 62px;
+    }
+
+    .players {
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 24px;
+    }
+
+    .footer-content .logo img {
+        width: 270px;
+    }
+
+    .social-icons {
+        margin-top: 50px;
+    }
+}
