@@ -138,18 +138,24 @@
 .social-icons {
     display: flex;
     justify-content: center;
+    gap: 14px;
 }
 
 /* Social Icon */
 .social-icon {
+    align-items: center;
+    display: flex;
+    justify-content: center;
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    background-color: gray;
+    color: gray;
+    background-color: #E7E7E8;
 }
 
 /* Copyright Text */
 .copyright-text {
     text-align: center;
     font-size: 18px;
+    margin-top: 20px;
 }
